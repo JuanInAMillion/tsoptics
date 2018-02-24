@@ -15,6 +15,15 @@ span {
   display: inkine-block;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
 /* header */
 
 header {
@@ -53,7 +62,7 @@ nav span {
   padding: 0 2rem;
 }
 
-.md-site {
+.sm-site {
   display: none;
 }
 
@@ -73,9 +82,11 @@ h1 {
 /* services */
 
 .services {
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
   margin-top: 3rem;
+  width: 50%;
 }
 
 figure {

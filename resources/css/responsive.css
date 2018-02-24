@@ -1,1 +1,66 @@
+/* media queries */
 
+/* tablet portrait */
+
+@media only screen and (max-width: 1024px) {
+.container {
+  width: 100%;
+}
+header {
+  height:22rem;
+  background-position: 20%;
+}
+.menu {
+  top: 0;
+}
+h1 {
+  font-size: 1.33rem;
+  margin-top: 5rem;
+  padding: 0.75rem 3rem;
+  left: 50%;
+  width: 15rem;
+}
+}
+
+/* phone portrait */
+
+@media only screen and (max-width: 470px) {
+  .container {
+    100%;
+  }
+  .lg-site {
+    display: none;
+  }
+  .sm-site {
+    display: block;
+  }
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+  h1 {
+    margin-top: 9rem;
+    padding: 1rem 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .services {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.77rem;
+    width: 100%;
+  }
+  .information {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.77rem;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+}
