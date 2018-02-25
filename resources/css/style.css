@@ -6,15 +6,6 @@ html, body {
   line-height: 1.4;
 }
 
-.container {
-  margin: 0 auto;
-  width: 960px;
-}
-
-span {
-  display: inkine-block;
-}
-
 a {
   color: white;
   text-decoration: none;
@@ -22,6 +13,15 @@ a {
 
 a:visited {
   color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+span {
+  display: inkine-block;
 }
 
 /* header */
@@ -59,7 +59,7 @@ nav {
 }
 
 nav span {
-  padding: 0 2rem;
+  padding-right: 2rem;
 }
 
 .sm-site {
@@ -76,17 +76,16 @@ h1 {
   left: 48%;
   margin-top: 10rem;
   width: 20rem;
-  ;
 }
 
 /* services */
 
 .services {
-  margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  margin: 0 auto;
   margin-top: 3rem;
-  width: 50%;
+  width: 70%;
 }
 
 figure {
@@ -112,6 +111,7 @@ figure {
 .information {
   display: flex;
   justify-content: space-around;
+  margin: 0 auto;
   margin-top: 3rem;
 }
 

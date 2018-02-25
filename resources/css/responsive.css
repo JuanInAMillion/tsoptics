@@ -3,30 +3,33 @@
 /* tablet portrait */
 
 @media only screen and (max-width: 1024px) {
-.container {
-  width: 100%;
-}
-header {
-  height:22rem;
-  background-position: 20%;
-}
-.menu {
-  top: 0;
-}
-h1 {
-  font-size: 1.33rem;
-  margin-top: 5rem;
-  padding: 0.75rem 3rem;
-  left: 50%;
-  width: 15rem;
-}
+  .container {
+    width: 100%;
+  }
+  header {
+    height: 22rem;
+    background-position: 20%;
+  }
+  .menu {
+    top: 0;
+  }
+  h1 {
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    padding: 0.75rem 3rem;
+    left: 50%;
+    width: 15rem;
+  }
+  .services {
+    width: 75%;
+  }
 }
 
 /* phone portrait */
 
 @media only screen and (max-width: 470px) {
-  .container {
-    100%;
+  body {
+    text-align: center;
   }
   .lg-site {
     display: none;
@@ -42,25 +45,33 @@ h1 {
     margin-top: 9rem;
     padding: 1rem 0;
     left: 0;
-    text-align: center;
     width: 100%;
   }
   .services {
     flex-direction: column;
     align-items: center;
-    margin-top: 3.77rem;
     width: 100%;
+  }
+  figure span {
+    font-size: 0.77rem;
   }
   .information {
     flex-direction: column;
     align-items: center;
-    margin-top: 3.77rem;
   }
   article {
     display: flex;
     flex-direction: column;
-    padding: 0;
-    text-align: center;
+    padding-bottom: 4rem;
     width: 100%;
+  }
+  .info {
+    font-size: 0.77rem;
+  }
+  .glasses {
+    margin: 0 auto;
+  }
+  footer{
+    top: 0;
   }
 }
